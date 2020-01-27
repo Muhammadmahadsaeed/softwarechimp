@@ -1,0 +1,182 @@
+ 
+#main {
+	padding:50px 50px 0 50px;
+ 		background: #202020;
+}
+.body-bg {
+	content:'';
+	position: fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background:#202020;
+	z-index:1;
+}
+.landing-logo{
+	position:absolute;
+	left:100px;
+	top:60px;
+	z-index:5;
+}
+.landing-logo img {
+	width:40px;
+	height:auto;
+}
+.scroll-down-dec {
+	position:absolute;
+	left:50px;
+	z-index:10;
+	bottom:60px;
+}
+.scroll-down-dec .scroll-down-wrap {
+	border:none;
+} 
+.landing-hero-text{
+    width: 30%;
+    height: 100%;
+    position: absolute;
+    top:40%;
+    left: 0;
+	padding:0 50px 0 100px;
+	z-index:20;
+ 
+}
+.landing-hero-container {
+	background: #2A2A2E;
+	z-index:10;
+}
+.landing-hero-container:before {
+	content:'';
+	position:absolute;
+	bottom:0;
+	left:0;
+	width:100%;
+	height:1px;
+	background:rgba(153, 153, 153, 0.1);
+} 
+.landing-hero-text h1 {
+	font-size:24px;
+	color:rgba(255,255,255,0.81);
+	letter-spacing:20px;
+	font-weight:600;
+	text-transform:uppercase;
+	font-family: 'Poppins', sans-serif;
+	padding-bottom:30px;
+	text-align:left;
+}
+.landing-hero-text h3 {
+	text-align:left;
+	color:#888;
+	font-size:16px;
+}
+.content.landing-content {
+	padding-left:0;
+		background: #202020;
+}
+.content.landing-content section {
+	padding-top:250px;
+}
+.parallax-text {
+	bottom:70%;
+}
+.parallax-item  h3 {
+	font-size: 28px;
+    color: rgba(255,255,255,0.81);
+    letter-spacing: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+	position:absolute;
+	width:40%;
+	position:relative;
+	top:-230px;
+	left:0;
+ 
+ 
+}
+.parallax-item.nth_chid  h3{
+	left:60%;
+	
+	
+}
+.parallax-item  h3 a {
+	    color:#fff;
+}
+.parallax-item  h3 a:hover {
+    color: rgba(255,255,255,0.61);
+}
+.parallax-item img {
+	box-shadow: 2px 3px 32px 0 rgba(0,0,0,.22);
+}
+.landing-hero-container .bg{
+	width:inherit;
+	left:30%;
+	right:0;
+ 
+}
+.landing-inner {
+	padding:150px 0;
+}
+.landing-inner h2 {
+	font-size:45px;
+	color:#fff;
+	padding-bottom:20px;
+}
+.landing-inner h4 {
+	color:#888;
+	padding-bottom:20px;
+	font-size:14px;
+}
+.landing-inner  .btn {
+	display:inline-block;
+	float:none;
+	margin-top:30px;
+}
+.landing-footer {
+	left:50px;
+	right:50px;
+	background:#202020;
+}
+@media only screen and (max-width: 1064px) {
+.landing-footer {
+	left:0;
+	right:0;
+}
+.landing-hero-text {
+    width: 100%;
+    top: 20%;
+    padding: 0 50px 0 50px;
+    z-index: 20;
+}
+.landing-hero-text h3 {
+	color:#fff;
+}
+.landing-hero-container .bg{
+	width:inherit;
+	left:0;
+	right:0;
+	opacity:0.5;
+ 
+}
+.parallax-item h3 {
+	position:relative;
+	top:0;
+	width:100% !important;
+	float:left;
+	margin-top:50px;
+	left:0 !important;
+ 
+ 
+}
+ 
+.parallax-item {
+    margin: 30px 0;
+    padding: 10px 0;
+}
+}
+@media only screen and (max-width: 768px) {
+#main {
+	padding:0;
+} 
+}
