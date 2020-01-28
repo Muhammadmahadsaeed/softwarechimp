@@ -202,7 +202,7 @@
     var isMacLike = /(Mac)/i.test(navigator.platform);
 
     var cursor = {
-        delay: 1,
+        delay: 0.8,
         _x: 0,
         _y: 0,
         endX: (window.innerWidth / 2),

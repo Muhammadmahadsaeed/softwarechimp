@@ -1240,7 +1240,7 @@ h1.title {
 
 .service-text h3 {
   color: #fff;
-  text-align: left;
+  text-align: center;
   font-size: 20px;
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
@@ -1257,7 +1257,7 @@ h1.title {
 
 .service-line {
   margin-top: 60px;
-  width: 80px;
+  /* width: 80px; */
   height: 3px;
   background: #fff;
 }
@@ -1279,12 +1279,14 @@ h1.title {
 }
 
 .partner-list {
+  color: white;
+  text-align: center;
   border: 1px solid #5c5c5c;
 }
 
-.partner-list img {
+/* .partner-list img {
   padding: 30px;
-}
+} */
 
 /* ==================================================
 
