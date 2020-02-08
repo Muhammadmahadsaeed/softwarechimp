@@ -138,13 +138,13 @@
 
         if (bodyScroll > 300) {
 
-            TweenMax.to('.scr', .5, {
+            TweenMax.to('.scr', .1, {
                 autoAlpha: 0,
                 y: '100',
 
             })
 
-            TweenMax.to('.scrolls', .5, {
+            TweenMax.to('.scrolls', .1, {
                 autoAlpha: 0,
                 y: '100',
 
@@ -158,7 +158,7 @@
 
             })
 
-            TweenMax.to('.scrolls', .5, {
+            TweenMax.to('.scrolls', .1, {
                 autoAlpha: 1,
                 y: '0',
 
@@ -169,13 +169,13 @@
 
 
     $('.img-folio').on('mouseenter', function () {
-        TweenMax.to(this, 0.4, {
-            y: '-30',
+        TweenMax.to(this, 0, {
+            y: '-10',
         })
     });
 
     $('.img-folio').on('mouseleave', function () {
-        TweenMax.to(this, 0.4, {
+        TweenMax.to(this, 0, {
             y: '1',
         })
     });
@@ -202,7 +202,7 @@
     var isMacLike = /(Mac)/i.test(navigator.platform);
 
     var cursor = {
-        delay: 0.8,
+        delay: 0.7,
         _x: 0,
         _y: 0,
         endX: (window.innerWidth / 2),
@@ -409,26 +409,26 @@
     var t1 = new TimelineMax({
         paused: true
     });
-    t1.to(".one", 0.8, {
+    t1.to(".one", 0, {
         y: 9,
         autoAlpha: 0,
         ease: Expo.easeInOut
     });
-    t1.to(".two", 0.8, {
+    t1.to(".two", 0, {
         ease: Expo.easeInOut,
-        delay: -1
+        delay: 0
     });
-    t1.to(".tre", 0.8, {
-        y: -9,
+    t1.to(".tre", 0, {
+        y: -3,
         autoAlpha: 0,
         ease: Expo.easeInOut,
-        delay: -1
+        delay: 0
     });
     t1.to(".over-all", 1, {
-        autoAlpha: 1,
+        autoAlpha: 0,
         ease: Expo.easeOut,
     })
-    t1.to(".bg-nav", 1, {
+    t1.to(".bg-nav", 0, {
         autoAlpha: 1,
         ease: Power4.easeOut,
         delay: -1
@@ -441,11 +441,11 @@
         delay: -1
     })
 
-    t1.staggerFrom(".menu ul li", 3, {
+    t1.staggerFrom(".menu ul li", 0, {
         y: 50,
         opacity: 0,
         ease: Power4.easeInOut,
-    }, '0.1', '-0.01');
+    }, '0', '0');
 
 
     t1.reverse();
