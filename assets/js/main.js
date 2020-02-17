@@ -213,7 +213,7 @@
         $cursor1: document.querySelector('.cursor1'),
 
         init: function () {
-            $('body').css('cursor', 'none');
+            // $('body').css('cursor', 'none');
 
             // Set up element sizes
             this.cursorSize = this.$cursor.offsetWidth;
@@ -273,7 +273,7 @@
 
         animateDotOutline: function () {
             var self = this;
-
+            
             self._x += (self.endX - self._x) / self.delay;
             self._y += (self.endY - self._y) / self.delay;
             self.$cursor1.style.top = self._y + 'px';

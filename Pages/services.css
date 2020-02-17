@@ -1,0 +1,157 @@
+.parallax-item {
+	/* margin: 70px 0; */
+	padding: 20px 0;
+}
+.parallax-item img {
+	width: 100%;
+	height: auto;
+	position: relative;
+	z-index: 4;
+	transform: translateZ(0);
+}
+.parallax-item-number {
+	position: absolute;
+	bottom: 32px;
+	z-index: -1;
+	font-size: 74px;
+	font-weight: bold;
+	line-height: 0;
+	color: #D5D5D5;
+	text-transform: uppercase;
+	font-family: 'Poppins', sans-serif;
+}
+.parallax-item-number {
+	position: absolute;
+	bottom: 32px;
+	z-index: -1;
+	font-size: 74px;
+	font-weight: bold;
+	line-height: 0;
+	color: #D5D5D5;
+	text-transform: uppercase;
+	font-family: 'Poppins', sans-serif;
+}
+.dark-bg .parallax-item-number {
+	color: #414145;
+}
+.rg-num {
+	right: 0;
+}
+.lf-num {
+	left: 0;
+}
+.parallax-text {
+	position: absolute;
+	bottom: 40%;
+	z-index: 10;
+}
+.parallax-text.right-pos {
+	right: 50%;
+	margin-right: -200px;
+}
+.parallax-text.left-pos {
+	margin-left: -200px;
+	left: 50%;
+}
+.parallax-text h3 {
+	font-size: 24px;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: 'Poppins', sans-serif;
+	position: relative;
+	text-align: left;
+}
+.parallax-text.right-pos h3 {
+	text-align: right;
+	float: right;
+}
+.parallax-text.left-pos h3 {
+	text-align: left;
+	float: left;
+}
+.parallax-text h3:before {
+	content: '';
+	position: absolute;
+	top: 50%;
+	margin-top: -1px;
+	width: 60px;
+	height: 2px;
+	background: #292929;
+}
+.parallax-text.left-pos h3:before {
+	left: -80px;
+}
+.parallax-text.right-pos h3:before {
+	right: -80px;
+}
+.parallax-text h3:after {
+	content: '';
+	position: absolute;
+	top: -5px;
+	bottom: -10px;
+	left: 100px;
+	right: -100px;
+	background: #fff;
+	opacity: 0.3;
+	z-index: 1;
+}
+.dark-bg .parallax-text h3:after {
+	background: #292929;
+	opacity: 0.5;
+}
+.parallax-text.left-pos h3:after {
+	left: 100px;
+	right: -100px;
+}
+.parallax-text.right-pos h3:after {
+	left: -100px;
+	right: 100px;
+}
+.parallax-text h3 a {
+	position: relative;
+	z-index: 10;
+	color: rgba(51, 51, 51, 0.81);
+}
+.dark-bg .parallax-text h3 a {
+	color: #fff;
+}
+.parallax-text h4 {
+	text-align: left;
+	color: #fff;
+	text-transform: uppercase;
+	float: left;
+	width: 100%;
+	margin: 20px 0;
+	font-size: 10px;
+	letter-spacing: 2px;
+	position: relative;
+}
+.parallax-text h4 span {
+	position: relative;
+	float: left;
+	padding: 15px 30px;
+}
+.parallax-text h4 span:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #35353A;
+	z-index: -1;
+}
+.parallax-text.left-pos h4 span {
+	float: left;
+}
+.parallax-text.right-pos h4 span {
+	float: right;
+}
+.parallax-text.right-pos .btn {
+	float: right;
+}
+.fl-wrap {
+	float: left;
+	width: 100%;
+	position: relative;
+}
