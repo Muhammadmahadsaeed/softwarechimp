@@ -1,17 +1,5 @@
 @charset "utf-8";
 
-/*======================================
- [ -Main Stylesheet-
-  Theme: CityBook
-  Version: 1.0
-  Last change: 02/02/2018 ]
-++ Fonts ++
-++ General Style ++
-font-family: 'Titillium Web', sans-serif;
-font-family: 'Montserrat', sans-serif;
-font-family: 'Poppins', sans-serif;
-/*-------------Fonts---------------------------------------*/
-
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900|Poppins:400,500,600,700,800,900|Titillium+Web:400,600,700&amp;subset=cyrillic,cyrillic-ext,devanagari,latin-ext,vietnamese');
 
 /*-------------General Style---------------------------------------*/
@@ -27,7 +15,7 @@ body {
 	font-size: 13px;
 	height: 100%;
 	text-align: center;
-	background: #2D2D32;
+	background: black;
 	color: #000;
 	font-family: 'Titillium Web', sans-serif;
 }
@@ -47,7 +35,7 @@ body {
 	width: 100%;
 	height: 100%;
 	z-index: 200;
-	background: #2A2A2E;
+	background: black;
 	top: 0;
 	overflow: hidden;
 	left: 0;
@@ -643,7 +631,7 @@ nav.nav-inner {
 	padding: 23px 40px 0;
 	height: 100%;
 	border-right: 1px solid rgba(255, 255, 255, 0.11);
-	background: #2A2A2E;
+	background: black;
 }
 .scroll-nav li {
 	float: left;
@@ -696,7 +684,7 @@ nav.nav-inner {
 
 .main-footer {
 	position: fixed;
-	background: #2A2A2E;
+	background: black;
 	z-index: 2;
 	left: 80px;
 	bottom: 0;
@@ -745,7 +733,7 @@ nav.nav-inner {
 	overflow: hidden;
 	font-size: 24px;
 	border: 1px solid rgba(255, 255, 255, 0.08);
-	background: #2A2A2E;
+	background: black;
 }
 .to-top-letter {
 	position: relative;
@@ -1116,7 +1104,7 @@ p.interact,
 	overflow: hidden;
 	position: relative;
 	z-index: 4;
-	background: #2A2A2E;
+	background: black;
 }
 .slideshow-container {
 	position: absolute;
@@ -1127,7 +1115,7 @@ p.interact,
 	z-index: -1;
 }
 .fs-carousel-wrap {
-	background: #2A2A2E;
+	background: black;
 }
 .fs-carousel-item {
 	float: left;
@@ -1607,7 +1595,7 @@ p.interact,
 .hero-start-button {
 	float: left;
 	padding: 15px 45px;
-	background: #2A2A2E;
+	background: black;
 	font-weight: 600;
 	text-transform: uppercase;
 	font-size: 10px;
@@ -1757,7 +1745,7 @@ section.parallax-section {
 	padding: 70px 0;
 }
 .dark-bg {
-	background: #2A2A2E;
+	background: black;
 }
 .dark-bg2 {
 	background: #2D2D32;
@@ -1795,7 +1783,7 @@ section.parallax-section.parallax-sec-half-right:after {
 	margin-right: -35px;
 }
 section.parallax-section.sing-dark-bg:before {
-	background: #2A2A2E;
+	background: black;
 }
 section.parallax-section.parallax-sec-half-right:before {
 	right: 0;
@@ -2766,7 +2754,7 @@ section.parallax-section .section-title:before {
 	font-size: 10px;
 	text-transform: uppercase;
 	letter-spacing: 2px;
-	background: #2A2A2E;
+	background: black;
 }
 .album-cover-datils li:hover span {
 	opacity: 1;
@@ -4168,7 +4156,7 @@ section.parallax-section .section-title:before {
 	float: right;
 	width: 70%;
 	bottom: 0;
-	background: #2A2A2E;
+	background: black;
 	z-index: 20;
 	padding: 70px 0;
 	min-height: 100vh;
@@ -5062,7 +5050,7 @@ section.parallax-section .section-title:before {
 	top: 0;
 	width: 100%;
 	height: 100%;
-	background: #2A2A2E;
+	background: black;
 }
 .cs-wrap .hero-wrap {
 	background: none;
